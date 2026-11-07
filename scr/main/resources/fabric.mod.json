@@ -1,1 +1,25 @@
-
+{
+  "schemaVersion": 1,
+  "id": "quasar_legit",
+  "version": "${version}",
+  "name": "Quasar Legit",
+  "description": "Advanced utility mod for Minecraft 1.21.4",
+  "authors": [
+    "fokcikfox-create"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/quasar_legit/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.quasar.QuasarMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
